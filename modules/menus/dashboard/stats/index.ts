@@ -121,8 +121,8 @@ const Stats = (): BoxWidget => {
                                         on_primary_click: terminal.bind('value').as((term) => {
                                             return (): void => {
                                                 App.closeWindow('dashboardmenu');
-                                                Utils.execAsync(`bash -c "${term} -e btop"`).catch(
-                                                    (err) => `Failed to open btop: ${err}`,
+                                                Utils.execAsync(`bash -c "${term} -e btm"`).catch(
+                                                    (err) => `Failed to open btm: ${err}`,
                                                 );
                                             };
                                         }),
@@ -135,8 +135,8 @@ const Stats = (): BoxWidget => {
                                         on_primary_click: terminal.bind('value').as((term) => {
                                             return (): void => {
                                                 App.closeWindow('dashboardmenu');
-                                                Utils.execAsync(`bash -c "${term} -e btop"`).catch(
-                                                    (err) => `Failed to open btop: ${err}`,
+                                                Utils.execAsync(`bash -c "${term} -e btm"`).catch(
+                                                    (err) => `Failed to open btm: ${err}`,
                                                 );
                                             };
                                         }),
@@ -223,8 +223,8 @@ const Stats = (): BoxWidget => {
                                 on_primary_click: terminal.bind('value').as((term) => {
                                     return () => {
                                         App.closeWindow('dashboardmenu');
-                                        Utils.execAsync(`bash -c "${term} -e btop"`).catch(
-                                            (err) => `Failed to open btop: ${err}`,
+                                        Utils.execAsync(`bash -c "${term} -e btm"`).catch(
+                                            (err) => `Failed to open btm: ${err}`,
                                         );
                                     };
                                 }),
@@ -237,8 +237,8 @@ const Stats = (): BoxWidget => {
                                 on_primary_click: terminal.bind('value').as((term) => {
                                     return () => {
                                         App.closeWindow('dashboardmenu');
-                                        Utils.execAsync(`bash -c "${term} -e btop"`).catch(
-                                            (err) => `Failed to open btop: ${err}`,
+                                        Utils.execAsync(`bash -c "${term} -e btm"`).catch(
+                                            (err) => `Failed to open btm: ${err}`,
                                         );
                                     };
                                 }),
@@ -272,8 +272,8 @@ const Stats = (): BoxWidget => {
                                 on_primary_click: terminal.bind('value').as((term) => {
                                     return () => {
                                         App.closeWindow('dashboardmenu');
-                                        Utils.execAsync(`bash -c "${term} -e btop"`).catch(
-                                            (err) => `Failed to open btop: ${err}`,
+                                        Utils.execAsync(`bash -c "${term} -e btm"`).catch(
+                                            (err) => `Failed to open btm: ${err}`,
                                         );
                                     };
                                 }),
@@ -286,8 +286,8 @@ const Stats = (): BoxWidget => {
                                 on_primary_click: terminal.bind('value').as((term) => {
                                     return () => {
                                         App.closeWindow('dashboardmenu');
-                                        Utils.execAsync(`bash -c "${term} -e btop"`).catch(
-                                            (err) => `Failed to open btop: ${err}`,
+                                        Utils.execAsync(`bash -c "${term} -e btm"`).catch(
+                                            (err) => `Failed to open btm: ${err}`,
                                         );
                                     };
                                 }),
@@ -320,8 +320,8 @@ const Stats = (): BoxWidget => {
                                 on_primary_click: terminal.bind('value').as((term) => {
                                     return () => {
                                         App.closeWindow('dashboardmenu');
-                                        Utils.execAsync(`bash -c "${term} -e btop"`).catch(
-                                            (err) => `Failed to open btop: ${err}`,
+                                        Utils.execAsync(`bash -c "${term} -e btm"`).catch(
+                                            (err) => `Failed to open btm: ${err}`,
                                         );
                                     };
                                 }),
@@ -334,8 +334,8 @@ const Stats = (): BoxWidget => {
                                 on_primary_click: terminal.bind('value').as((term) => {
                                     return () => {
                                         App.closeWindow('dashboardmenu');
-                                        Utils.execAsync(`bash -c "${term} -e btop"`).catch(
-                                            (err) => `Failed to open btop: ${err}`,
+                                        Utils.execAsync(`bash -c "${term} -e btm"`).catch(
+                                            (err) => `Failed to open btm: ${err}`,
                                         );
                                     };
                                 }),

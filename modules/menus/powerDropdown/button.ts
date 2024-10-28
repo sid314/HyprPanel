@@ -28,7 +28,7 @@ export const PowerButton = (action: PowerOptions): GButton => {
         shutdown: '󰐥',
         reboot: '󰜉',
         logout: '󰿅',
-        sleep: '󰤄',
+        sleep: '',
     };
 
     return Widget.Button({

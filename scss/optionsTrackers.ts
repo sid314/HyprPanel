@@ -53,6 +53,9 @@ export const initializeTrackers = (resetCssFunc: () => void): void => {
         if (options.wallpaper.pywal.value && dependencies('wal')) {
             const wallpaperPath = options.wallpaper.image.value;
             bash(`wal -i ${wallpaperPath}`);
+            bash('zsh -e ~/.config/scripts/wallpaper.sh');
+            //bash('gradience-cli apply -n pywal --gtk both');
+            //bash('starttree.py');
         }
     });
 };
